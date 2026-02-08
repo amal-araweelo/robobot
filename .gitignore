@@ -1,0 +1,5 @@
+# in ~/svn/robobot/.gitignore
+
+build/
+.svn/
+kicad/

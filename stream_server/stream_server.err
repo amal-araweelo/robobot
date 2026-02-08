@@ -1,0 +1,9 @@
+[0:00:13.753194324] [868] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:340 [0mlibcamera v0.6.0+rpt20251202
+[0:00:13.791284380] [1071] [1;32m INFO [1;37mIPAProxy [1;34mipa_proxy.cpp:180 [0mUsing tuning file /usr/share/libcamera/ipa/rpi/vc4/imx219.json
+[0:00:13.798366342] [1071] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:223 [0mAdding camera '/base/soc/i2c0mux/i2c@1/imx219@10' for pipeline handler rpi/vc4
+[0:00:13.798430102] [1071] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:445 [0mRegistered camera /base/soc/i2c0mux/i2c@1/imx219@10 to Unicam device /dev/media2 and ISP device /dev/media1
+[0:00:13.798462176] [1071] [1;32m INFO [1;37mRPI [1;34mpipeline_base.cpp:1111 [0mUsing configuration file '/usr/share/libcamera/pipeline/rpi/vc4/rpi_apps.yaml'
+[0:00:13.806660768] [868] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1215 [0mconfiguring streams: (0) 820x616-XBGR8888/SMPTE170M/Rec709/None/Full (1) 1640x1232-SBGGR10_CSI2P/RAW
+[0:00:13.807098491] [1071] [1;32m INFO [1;37mRPI [1;34mvc4.cpp:620 [0mSensor: /base/soc/i2c0mux/i2c@1/imx219@10 - Selected sensor format: 1640x1232-SBGGR10_1X10/RAW - Selected unicam format: 1640x1232-pBAA/RAW
+127.0.0.1 - - [06/Feb/2026 15:00:02] "GET /stream.mjpg HTTP/1.1" 200 -
+WARNING:root:Removed streaming client ('127.0.0.1', 57264): [Errno 32] Broken pipe
